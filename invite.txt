@@ -1,0 +1,4 @@
+embed=discord.Embed(
+title="Invite Me!", url="https://discord.com/api/oauth2/authorize?client_id=797181865630629938&permissions=4228902135&scope=applications.commands%20bot", description="Click above to invite me to your own server!", 
+  color=0xFF5733)
+await ctx.send(embed=embed)
